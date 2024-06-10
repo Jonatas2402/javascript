@@ -19,9 +19,10 @@
     <h1>Olá, Mundo</h1>
     <p>ja me livrei da maldição</p>
     <script>
-        window.alert ('minha primeira mensagem');//Janela de Alerta.
-        window.confirm('esta gostando de JS?');//Jnala de confirmação.
-        window.prompt('como é seu nome?');//Janela de pergunta
+        var n1 = Number(window.prompt('digite um numero: '))
+        var n2 = Number(window.prompt('digite outro numero: '))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
     </script>
 </body>
 </html>
