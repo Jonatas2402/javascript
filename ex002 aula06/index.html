@@ -6,12 +6,16 @@
     <title>interagindo com botão</title>
     <style>
         body { font: 12pt Arial; }
-        button { font-size: 12pt; padding: 30px; }
+        button { font-size: 12pt; padding: 30px; margin: 10px;}
+        #botao {
+            display: flex;
+        }
     </style>
 </head>
 <body>
     <h1>interagindo com Botão</h1>
-    <button onclick="clicou()">Clique em mim</button>
+    <button class="botao" onclick="clicou()">Clique em mim</button>
+    <button class="botao" onclick="clicou()">clicou em mim</button>
     <script>
         function clicou() {
             window.alert('Você clicou em mim')
