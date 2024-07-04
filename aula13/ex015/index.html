@@ -9,14 +9,22 @@
 </head>
 <body>
     <header>
-        <h1>Horas do dia</h1>
+        <h1>verificando idade</h1>
     </header>
     <section>
         <div>
-            testando div
+            <p>Ano de nascimento:
+                <input type="number" name="txtano" id="txtano" min="0"></p>
+                <p>sexo: 
+                    <input type="radio" name="radsex" id="masc">
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+                </p>
+                <input type="button" value="Verificar" onclick="verificar()">
         </div>
-        <div>
-            testando div 2
+        <div id="res">
+           <p>Preencha os dados assima para obter o resultado</p>
         </div>
     </section>
     <footer>
