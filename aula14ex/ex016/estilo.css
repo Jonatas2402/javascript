@@ -1,0 +1,25 @@
+@charset 'UTF-8';
+
+body {
+    background-color: rgba(0, 149, 255, 0.611);
+    font: normal 15pt;
+}
+header {
+    font-family: 'Times New Roman', Times, serif;
+   color: white;
+   text-align: center;
+}
+section {
+    background-color: white;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.582);
+    
+}
+footer {
+    color: white;
+    text-align: center;
+    font: italic;
+}
