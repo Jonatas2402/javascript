@@ -10,6 +10,7 @@ function contar() {
         let i = Number(ini.value)
         let f = Number(fim.value)
         let p = Number(passo.value)
+    }  
         if(i < f){
             //contagem crescente
             for (let c = i; c <= f; c+= p){
@@ -24,5 +25,4 @@ function contar() {
             }
         } 
         res.innerHTML += `\u{1f3c1}`
-    }
 }
