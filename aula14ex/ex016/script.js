@@ -8,7 +8,7 @@ function contar() {
     } else {
         res.innerHTML = 'contando: '
         let i = Number(ini.value)
-        let f = Number(fim.value)
+        let f = Number(fim.Value)
         let p = Number(passo.value)
         if(i < f){
             //contagem crescente

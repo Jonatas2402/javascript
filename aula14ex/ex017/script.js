@@ -1,6 +1,21 @@
 function tabuada() {
-    let n = document.getElementById('txtn')
-    if(n.value.length >=0) {
-        alert('deu certo')
+    let num = document.getElementById('txtn')
+    
+    let tab = document.getElementById('seltab')
+    if(num.value.length == 0){
+        alert('por favor digite um numero')
+        
+    }else {
+        let n = Number(num.value)
+        let c = 1
+        tab.innerHTML = ''
+        while(c <= 10){
+            let item = document.createElement('Option')
+            item.text = `${n} x ${c} = ${n*c}`
+            tab.appendChild(item)
+            c++
+        }
     }
+   
+
 }
